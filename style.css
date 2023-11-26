@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: azure;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.quiz-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-content: center; */
+  max-width: 100%;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  /* padding: 10px 10px 2px 10px; */
+}
+h2 {
+  margin: 0;
+}
+.box1 ul {
+  list-style-type: none;
+}
+.box1 ul li {
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+  margin: 1rem 0;
+}
+.box1 ul li label {
+  cursor: pointer;
+}
+.box1 ul li input {
+  cursor: pointer;
+}
+.box1 {
+  padding: 20px;
+}
+.btn {
+  background-color: purple;
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+  background-color: rgba(128, 0, 128, 0.7);
+  cursor: pointer;
+}
+#r-btn {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: none;
+  width: 50%;
+  cursor: pointer;
+}
